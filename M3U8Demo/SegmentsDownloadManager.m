@@ -115,8 +115,6 @@
         
         progress(p);
         
-//        NSLog(@"download：%f", (float)totalBytesRead / totalBytesExpectedToRead);
-        
     }];
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
